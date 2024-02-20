@@ -20,6 +20,8 @@ void swapper(int *e1, int *e2)
  * bubble_sort - sorts an array of integers
  * @array: array to be sorted
  * @size: number of elements in array
+ *
+ * Return: Nothing
  */
 
 void bubble_sort(int *array, size_t size)
@@ -29,6 +31,7 @@ void bubble_sort(int *array, size_t size)
 
 	if (array == NULL || size < 2)
 		return;
+
 	while (bub == false)
 	{
 		bub = true;
